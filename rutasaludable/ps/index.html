@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0572283b45.js"></script>
+
+    <title>Rutina Simple</title>
+    <style type="text/css">
+      nav {
+        background-color: #BF0A0A;
+        color: white;
+      }
+      .fsec {
+        background-color: #FCFCFC;
+      }
+      .fsec h1 {
+        color: #4F5AEA;
+      }
+      .fsec h4 {
+        color: #636E72;
+      }
+      .ssec {
+        background-color: #92d1e8;
+      }
+      .btn {
+        font-size: 200%;
+        font-family: 'Oswald', sans-serif;
+        white-space: normal;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar justify-content-center text-center">
+      <span class="lead">
+        <i class="fas fa-exclamation-triangle mr-2"></i>ATENCIÓN: Este video será eliminado el día <span id="dia"></span> de <span id="mes"></span>, disfrútalo mientras esté disponible!
+      </span>
+    </nav>
+
+    <section class="py-5 fsec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1>Sencillo Cambio Que Hace Que Tu Metabolismo
+<b>Se Acelere</b> en Hasta 29 días</h1>
+            <h4>Transformó mi vida y recuperó mi cuerpo y confianza...</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 ssec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <a href="https://quemade4semanas.club/"><img class="img-fluid" src="play.jpg"></a>
+<p class="lead px-5 mb-5 font-weight-bold">            
+<p class="lead px-5 mb-5 font-weight-bold">Un estudio avanzado ha demostrado que esta FORMA DE COMER ACELERA el metabolismo e inflama la flacidez, corrigiendo una "causa raíz" recientemente descubierta de la hinchazón no deseada.</p>
+<p class="lead px-5 mb-5 font-weight-bold">Es 5,66 veces más potente que los entrenamientos de alta intensidad, incluso mientras duerme.</p>
+<p class="lead px-5 mb-5 font-weight-bold">Es 6,11 veces más potente para tonificar los glúteos, la barriga, el cuello y los brazos, más rápido que cualquier dieta normal.</p>
+<p class="lead px-5 mb-5 font-weight-bold">Compruébalo por ti mismo...</p>
+<p class="lead px-5 mb-5 font-weight-bold">Haga clic en la imagen de arriba para ver el video.</p>
+            <!-- TROQUE SEU LINK ONDE ESTÁ O DO PROTOCOLOZEROBARRIGA.COM, MANTENDO AS ASPAS -->
+            <a class="btn btn-success btn-lg p-4 mt-5" href="https://quemade4semanas.club/">¡QUIERO VER EL VIDEO AHORA!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <a href="https://quemade4semanas.club/termos.html" class="text-white font-weight-bold">Terminos de uso</a> | <a href="https://quemade4semanas.club/privacidade.html" class="text-white font-weight-bold">Política de privacidad</a>
+            <p class="font-weight-bold">Copyright 2022 - Todos los derechos reservados</p>
+            <p>Este sitio web no es parte del sitio web de Youtube o Youtube Inc. Además,</p>
+            <p class="mb-0">Este sitio NO está respaldado por Youtube de ninguna manera. Youtube es una marca registrada de Google.Inc.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      monName = new Array ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+
+      var data = new Date();
+      var dia = data.getDate();
+      var mes = monName[data.getMonth()];
+
+      document.getElementById("dia").innerHTML = dia
+      document.getElementById("mes").innerHTML = mes
+    </script>
+  </body>
+</html>
